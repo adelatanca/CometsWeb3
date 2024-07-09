@@ -1,3 +1,6 @@
+## Documentation 
+#### [Solana cookbook](https://solanacookbook.com/#contributing)
+
 ## Projects Descriptions
 
 ### 1. Key Management Repository
@@ -37,6 +40,16 @@ Mints a specified amount of a custom token to an associated token account. Print
 
 #### 4. send-spl-tokens.ts
 Transfers a specified amount of a custom token between two wallets. Initiates the transfer and provides a link to view the transaction on an explorer.
+
+## 5. Solana NFT project
+This project demonstrates how to create and update an NFT on the Solana blockchain using the Metaplex JavaScript SDK.
+
+### Features:
+> Upload Metadata: Uploads image and metadata to decentralized storage.
+
+> Create NFT: Mints a new NFT with the uploaded metadata.
+
+> Update NFT: Updates the metadata of an existing NFT.
 
 - - - 
 
