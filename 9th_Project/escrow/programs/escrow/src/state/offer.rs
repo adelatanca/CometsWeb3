@@ -1,4 +1,4 @@
-use anchor_lang::preude::*;
+use anchor_lang::prelude::*;
 
 #[account]
 #[derive(InitSpace)]

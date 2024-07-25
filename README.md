@@ -3,7 +3,7 @@
 
 ## Projects Descriptions
 
-### 1. Key Management Repository
+## 1. Key Management Repository
 
 #### generate-keypair.ts
 This script generates a new keypair for a Solana wallet. It utilizes the `Keypair` class from the `@solana/web3.js` library and prints the public and secret keys to the console. Useful for creating new wallets securely within the same repository.
@@ -13,14 +13,14 @@ This script securely loads a Solana keypair from an environment variable. It use
 
 ---
 
-### 2. Balance Checking Project
+## 2. Balance Checking Project
 
 #### check-balances.ts
 This script connects to the Solana Devnet and checks the balance of a specified wallet. It also performs an airdrop to the wallet if the balance is below a certain threshold. Ensures wallets have sufficient funds for transactions. Located in the second folder.
 
 ---
 
-### 3. Transaction Handling Project
+## 3. Transaction Handling Project
 
 #### transfer.ts
 This script handles transferring SOL (Solana's native cryptocurrency) between wallets on the Solana Devnet. Includes functionality to add a memo to transactions. Connects to the Devnet, specifies sender and receiver wallets, creates and confirms transactions, and prints transaction details. Found in the third folder.
@@ -53,5 +53,19 @@ This project demonstrates how to create and update an NFT on the Solana blockcha
 
 - - - 
 
+## 6. Introduction in Rust. Exercises
+
+## 7. First setup for Anchor projects
+
+## 8. First Solana Program
+- This Solana program allows users to set and store their favorite number, color, and hobbies on the blockchain
+
+## 9. Hands on Escrow progam 
+- The Escrow Program is built on the Solana blockchain using the Anchor framework. This program allows users to make/take offers involving token exchanges.
+
+---
 ### Note
 These solutions are being developed with the assistance of [CometsWeb3](https://cometsweb3.space), who provides support and guidance in the development process.
+
+---
+## Youtube channel [here](https://www.youtube.com/@cometsofweb3/videos).
