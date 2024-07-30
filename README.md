@@ -18,6 +18,13 @@ This script securely loads a Solana keypair from an environment variable. It use
 #### check-balances.ts
 This script connects to the Solana Devnet and checks the balance of a specified wallet. It also performs an airdrop to the wallet if the balance is below a certain threshold. Ensures wallets have sufficient funds for transactions. Located in the second folder.
 
+- Useful commands:
+> npx esrun check-balance.ts
+
+> solana logs -u l
+
+> solana account {{PubKey}}
+
 ---
 
 ## 3. Transaction Handling Project
@@ -41,15 +48,17 @@ Mints a specified amount of a custom token to an associated token account. Print
 #### 4. send-spl-tokens.ts
 Transfers a specified amount of a custom token between two wallets. Initiates the transfer and provides a link to view the transaction on an explorer.
 
-## 5. Solana NFT project
-This project demonstrates how to create and update an NFT on the Solana blockchain using the Metaplex JavaScript SDK.
+## 5. Solana NFT project & Solana Frontend Ping App
+First project demonstrates how to create and update an NFT on the Solana blockchain using the Metaplex JavaScript SDK. 
 
-### Features:
-> Upload Metadata: Uploads image and metadata to decentralized storage.
+Second project aims to create an UI app with React which interacts with a Phantom wallet and sends SOL to another SOL account.
 
-> Create NFT: Mints a new NFT with the uploaded metadata.
+### Features for first project:
+-  Upload Metadata: Uploads image and metadata to decentralized storage.
 
-> Update NFT: Updates the metadata of an existing NFT.
+-  Create NFT: Mints a new NFT with the uploaded metadata.
+
+-  Update NFT: Updates the metadata of an existing NFT.
 
 - - - 
 
@@ -62,6 +71,8 @@ This project demonstrates how to create and update an NFT on the Solana blockcha
 
 ## 9. Hands on Escrow progam 
 - The Escrow Program is built on the Solana blockchain using the Anchor framework. This program allows users to make/take offers involving token exchanges.
+
+> anchor build
 
 ---
 ### Note
